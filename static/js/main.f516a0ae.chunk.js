@@ -1,0 +1,2 @@
+(this.webpackJsonptravles=this.webpackJsonptravles||[]).push([[0],{16:function(e,t,n){},23:function(e,t,n){"use strict";n.r(t);n(0);var r=n(9),s=n.n(r),c=(n(16),n(2)),a=function(){return Object(c.jsx)("h1",{children:"GOOGOG"})},i=n(11);s.a.render(Object(c.jsx)(c.Fragment,{children:Object(c.jsx)(i.a,{basename:"/travels",children:Object(c.jsx)(a,{})})}),document.getElementById("root"))}},[[23,1,2]]]);
+//# sourceMappingURL=main.f516a0ae.chunk.js.map
