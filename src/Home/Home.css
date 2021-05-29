@@ -1,0 +1,86 @@
+.body_parent{
+    height: auto;
+    width: 100%;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column;
+}
+.video{
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
+.video img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.video_caption{
+    width: 30%;
+    position: absolute;
+    top: 13.9%;
+    opacity: 0.3;
+    left: -28%;
+    cursor: pointer;
+    background-color: palevioletred;
+}
+.video_caption p{
+    padding: 5%;
+    font-size: 1.5rem;
+}
+.video_caption:hover{
+    opacity: 1;
+    left: 0;
+    transition: 1s ease-in;
+}
+.slogon{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.best{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+}
+.location{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 14px 5px;
+    padding: 2%;
+}
+.guide{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 14px 5px;
+    padding: 2%
+}
+.main_card{
+    height: auto;
+    width: 92%;
+    margin: 3% 0 0 4%;
+    background-color: black;
+    box-shadow: 10px 10px 8px #888888;
+}
+.img_card{
+    height: auto;
+    width: 100%;
+}
+.img_card img{ 
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+}
+.card_name{
+    height: auto;
+    width: 100%;
+}
+.card_name h1{
+    color: transparent;
+    text-align: center;
+    color: white;
+    padding: 0.2%;
+    text-decoration: none;
+}

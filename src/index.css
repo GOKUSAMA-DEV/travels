@@ -5,3 +5,49 @@ a{
   text-decoration: none;
   color: black;
 }
+
+@media only screen and (max-width: 768px) {
+  .header .header_title h1{
+      font-size: 2.5rem;
+  }
+  .header .header_menu{
+      flex-direction: column;
+      align-items: flex-start;
+  } 
+  .header .header_menu a{
+      font-size: 1.3rem;
+  }
+  .body_parent .slogan .location{
+    display: flex;
+    flex-direction: column;
+  }
+  .body_parent .slogan .guide{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .header{
+      flex-direction: column;
+  }
+  .header .header_title h1{
+      font-size: 2.5rem;
+  }
+  .header .header_menu{
+      flex-direction: column;
+      margin: auto;
+      border-top: 2px solid black;
+      margin-top: 5%;
+  } 
+  .header .header_menu a{
+      font-size: 1.3rem;
+  }
+  .body_parent .slogan .location{
+    display: flex;
+    flex-direction: column;
+  }
+  .body_parent .slogan .guide{
+    display: flex;
+    flex-direction: column;
+  }
+}
