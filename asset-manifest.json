@@ -1,32 +1,32 @@
 {
   "files": {
-    "main.css": "/travels/static/css/main.c67e5a7e.chunk.css",
-    "main.js": "/travels/static/js/main.24b58235.chunk.js",
-    "main.js.map": "/travels/static/js/main.24b58235.chunk.js.map",
+    "main.css": "/travels/static/css/main.f5c7f5a0.chunk.css",
+    "main.js": "/travels/static/js/main.cc011f9a.chunk.js",
+    "main.js.map": "/travels/static/js/main.cc011f9a.chunk.js.map",
     "runtime-main.js": "/travels/static/js/runtime-main.3f7a0df1.js",
     "runtime-main.js.map": "/travels/static/js/runtime-main.3f7a0df1.js.map",
-    "static/js/2.27e24977.chunk.js": "/travels/static/js/2.27e24977.chunk.js",
-    "static/js/2.27e24977.chunk.js.map": "/travels/static/js/2.27e24977.chunk.js.map",
+    "static/js/2.635ba2ec.chunk.js": "/travels/static/js/2.635ba2ec.chunk.js",
+    "static/js/2.635ba2ec.chunk.js.map": "/travels/static/js/2.635ba2ec.chunk.js.map",
     "index.html": "/travels/index.html",
-    "static/css/main.c67e5a7e.chunk.css.map": "/travels/static/css/main.c67e5a7e.chunk.css.map",
-    "static/js/2.27e24977.chunk.js.LICENSE.txt": "/travels/static/js/2.27e24977.chunk.js.LICENSE.txt",
+    "static/css/main.f5c7f5a0.chunk.css.map": "/travels/static/css/main.f5c7f5a0.chunk.css.map",
+    "static/js/2.635ba2ec.chunk.js.LICENSE.txt": "/travels/static/js/2.635ba2ec.chunk.js.LICENSE.txt",
     "static/media/Amritsar.668d73e1.JPG": "/travels/static/media/Amritsar.668d73e1.JPG",
     "static/media/Delhi.612b7112.jpg": "/travels/static/media/Delhi.612b7112.jpg",
     "static/media/Jaipur.1756e20a.jpg": "/travels/static/media/Jaipur.1756e20a.jpg",
     "static/media/ahana.acc071dc.jpg": "/travels/static/media/ahana.acc071dc.jpg",
-    "static/media/ajay.dbc65e1d.jpg": "/travels/static/media/ajay.dbc65e1d.jpg",
-    "static/media/back.56b5f742.jpg": "/travels/static/media/back.56b5f742.jpg",
+    "static/media/ajay.95a93efd.jpeg": "/travels/static/media/ajay.95a93efd.jpeg",
     "static/media/edu.64ceebe3.jpg": "/travels/static/media/edu.64ceebe3.jpg",
-    "static/media/gupta.7accf136.jpg": "/travels/static/media/gupta.7accf136.jpg",
+    "static/media/gupta.2af86072.jpeg": "/travels/static/media/gupta.2af86072.jpeg",
     "static/media/neha.97dc1a3c.jpg": "/travels/static/media/neha.97dc1a3c.jpg",
     "static/media/pankaj.532e7448.jpg": "/travels/static/media/pankaj.532e7448.jpg",
     "static/media/popi.b6689d90.jpg": "/travels/static/media/popi.b6689d90.jpg",
-    "static/media/satyam.7c059e27.jpg": "/travels/static/media/satyam.7c059e27.jpg"
+    "static/media/satyam.7c059e27.jpg": "/travels/static/media/satyam.7c059e27.jpg",
+    "static/media/video-1.99a46e03.mp4": "/travels/static/media/video-1.99a46e03.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.3f7a0df1.js",
-    "static/js/2.27e24977.chunk.js",
-    "static/css/main.c67e5a7e.chunk.css",
-    "static/js/main.24b58235.chunk.js"
+    "static/js/2.635ba2ec.chunk.js",
+    "static/css/main.f5c7f5a0.chunk.css",
+    "static/js/main.cc011f9a.chunk.js"
   ]
 }
