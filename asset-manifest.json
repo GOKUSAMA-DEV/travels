@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/travels/static/css/main.cbfc54cd.chunk.css",
+    "main.css": "/travels/static/css/main.246c1b3b.chunk.css",
     "main.js": "/travels/static/js/main.cc011f9a.chunk.js",
     "main.js.map": "/travels/static/js/main.cc011f9a.chunk.js.map",
     "runtime-main.js": "/travels/static/js/runtime-main.3f7a0df1.js",
@@ -8,7 +8,7 @@
     "static/js/2.635ba2ec.chunk.js": "/travels/static/js/2.635ba2ec.chunk.js",
     "static/js/2.635ba2ec.chunk.js.map": "/travels/static/js/2.635ba2ec.chunk.js.map",
     "index.html": "/travels/index.html",
-    "static/css/main.cbfc54cd.chunk.css.map": "/travels/static/css/main.cbfc54cd.chunk.css.map",
+    "static/css/main.246c1b3b.chunk.css.map": "/travels/static/css/main.246c1b3b.chunk.css.map",
     "static/js/2.635ba2ec.chunk.js.LICENSE.txt": "/travels/static/js/2.635ba2ec.chunk.js.LICENSE.txt",
     "static/media/Amritsar.668d73e1.JPG": "/travels/static/media/Amritsar.668d73e1.JPG",
     "static/media/Delhi.612b7112.jpg": "/travels/static/media/Delhi.612b7112.jpg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f7a0df1.js",
     "static/js/2.635ba2ec.chunk.js",
-    "static/css/main.cbfc54cd.chunk.css",
+    "static/css/main.246c1b3b.chunk.css",
     "static/js/main.cc011f9a.chunk.js"
   ]
 }
