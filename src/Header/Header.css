@@ -24,8 +24,10 @@
     color: whitesmoke;
     border: 2px solid transparent;
     padding: 1%;
+    border: 2px solid black;
     border-radius: 5px;
+    margin-bottom: 1.5%;
 }
 .header_menu a:hover{
-    border-color: black;
+    border-color: white;
 }

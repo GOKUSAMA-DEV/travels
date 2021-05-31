@@ -29,10 +29,12 @@ a{
     font-size: 1.3rem;
   }
   .body_parent .video .video_caption{
+    height: 45%;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    top: -15%;
+    top: 10.5%;
     opacity: 1;
   }
   .body_parent .video .video_caption p{
@@ -72,7 +74,9 @@ a{
     flex-direction: column;
   }
   .body_parent .video .video_caption{
-    top: 15%;
+    top: 35%;
+    height: 60.5%;
+    width: 100%;
   }
   .body_parent .video .video_caption p{
     font-size: 0.7rem;
