@@ -15,7 +15,7 @@ a{
       align-items: flex-start;
   } 
   .header .header_menu a{
-      font-size: 1.3rem;
+      font-size: 1rem;
   }
   .body_parent .slogan .location{
     display: flex;
@@ -24,6 +24,23 @@ a{
   .body_parent .slogan .guide{
     display: flex;
     flex-direction: column;
+  }
+  .body_parent .slogan .best h1{
+    font-size: 1.3rem;
+  }
+  .body_parent .video .video_caption{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -15%;
+    opacity: 1;
+  }
+  .body_parent .video .video_caption p{
+    font-size: 1rem;
+    color: white;
+  }
+  .body_parent .video .video_caption .buttons a{
+    font-size: 1rem;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -40,7 +57,11 @@ a{
       margin-top: 5%;
   } 
   .header .header_menu a{
-      font-size: 1.3rem;
+      font-size: 1rem;
+  }
+  .body_parent .slogan .best h1{
+    font-size: 1.3rem;
+    margin-bottom: 5%;
   }
   .body_parent .slogan .location{
     display: flex;
@@ -49,5 +70,11 @@ a{
   .body_parent .slogan .guide{
     display: flex;
     flex-direction: column;
+  }
+  .body_parent .video .video_caption p{
+    font-size: 2rem;
+  }
+  .body_parent .video .video_caption .buttons a{
+    font-size: 1rem;
   }
 }

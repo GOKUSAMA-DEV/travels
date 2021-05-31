@@ -1,9 +1,8 @@
 .header{
     height: auto;
-    width: 98%;
+    width: 100%;
     display: flex;
-    background-color: tomato;
-    padding: 1%;
+    background-color: black;
 }
 .header_title{
     width: 80%;
@@ -12,6 +11,7 @@
 .header_title h1{
     font-size: 3rem;
     text-align: center;
+    color: white;
 }
 .header_menu{
     display: flex;
@@ -21,7 +21,7 @@
 }
 .header_menu a{
     font-size: 1.4rem;
-    color: black;
+    color: whitesmoke;
     border: 2px solid transparent;
     padding: 1%;
     border-radius: 5px;

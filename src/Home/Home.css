@@ -1,38 +1,77 @@
 .body_parent{
     height: auto;
     width: 100%;
-    background-color: burlywood;
     display: flex;
     flex-direction: column;
+    font-family: 'Trebuchet MS', sans-serif;
 }
 .video{
     height: auto;
     width: 100%;
-    margin: auto;
 }
-.video img{
+video{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* .video img{
     width: 100%;
     height: 500px;
     object-fit: cover;
 }
+*/
 .video_caption{
-    width: 30%;
+    height: 114%;
+    width: 100%;
     position: absolute;
-    top: 13.9%;
-    opacity: 0.3;
-    left: -28%;
-    cursor: pointer;
-    background-color: palevioletred;
+    top: 11%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* opacity: 0.3; */
+    z-index: 1;
+    color: white;
 }
 .video_caption p{
     padding: 5%;
-    font-size: 1.5rem;
+    font-size: 2.5rem;
 }
+.buttons{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.buttons a{
+    color: white;
+    padding: 0.5% 2%;
+    font-size: 1.5rem;
+    border: 2px solid white;
+}
+.buttons .fill{
+    background-color: transparent;
+    color: white;
+    border-radius: 5px 0 0 5px;
+}
+.buttons .fill_not{
+    background-color: white;
+    color: black;
+    border-radius: 0 5px 5px 0;
+}
+/* .buttons .fill:hover{
+    background-color: white;
+    color: black;
+}
+.buttons .fill_not:hover{
+    background-color: transparent;
+    color: white;
+} */
 .video_caption:hover{
     opacity: 1;
-    left: 0;
     transition: 1s ease-in;
-}
+} 
 .slogon{
     height: auto;
     width: 100%;
@@ -44,6 +83,9 @@
     width: 100%;
     text-align: center;
     padding-top: 2%;
+}
+.slogan .best h1{
+    font-size: 2rem;
 }
 .location{
     display: grid;
@@ -59,28 +101,46 @@
 }
 .main_card{
     height: auto;
-    width: 92%;
-    margin: 3% 0 0 4%;
-    background-color: black;
-    box-shadow: 10px 10px 8px #888888;
+    width: 70%;
+    margin: auto;
+    border-radius:16px;
+    overflow:hidden;
+    box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
+}
+.property-card
+{
+  height:18em;
+  width:14em;
+  display:flex;
+  flex-direction:column;
+  position:relative;
+  border-radius:16px;
+  overflow:hidden;
+  box-shadow:  15px 15px 27px #e1e1e3, -15px -15px 27px #ffffff;
 }
 .img_card{
     height: auto;
     width: 100%;
+    transition: all 0.2s linear;
 }
 .img_card img{ 
-    height: 300px;
+    height: 250px;
     width: 100%;
     object-fit: cover;
 }
+.img_card:hover {
+    transform: scale(1.1);
+  }
 .card_name{
-    height: auto;
+    height: 50px;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
 }
 .card_name h1{
-    color: transparent;
-    text-align: center;
-    color: white;
-    padding: 0.2%;
-    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
 }

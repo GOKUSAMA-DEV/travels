@@ -1,17 +1,27 @@
 import React from 'react';
 import "../Home/Home.css";
-import A from "../Home/back.jpg";
+// import A from "../Home/back.jpg";
+import video from "../Home/video-1.mp4";
 import BestLocation from "../Home/BestLocation";
 import Guide from '../Guide/Guide';
+import { Link } from 'react-router-dom';
 
 export const Home = () => {
     return (
         <>
             <div className="body_parent">
                 <div className="video">
-                    <img src={A} />
+                    {/* <img src={A} /> */}
+                    {/* <video src="video-1.mp4" autoPlay loop muted /> */}
+                    <video autoPlay loop muted>
+                        <source src={video} type="video/mp4" />
+                    </video>
                     <div className="video_caption">
-                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing</p>
+                        <p>We have better experince in all location</p>
+                        <div className="buttons">
+                            <Link className="fill">View</Link>
+                            <Link className="fill_not">More</Link>
+                        </div>
                     </div>
                 </div>
                 <div className="slogan">
@@ -33,7 +43,7 @@ export const Home = () => {
                         }
                     </div>
                 </div>
-                <div className="slogan">
+                {/* <div className="slogan">
                     <div className="best">
                         <h1>We Have Best Guide for All Location</h1>
                     </div>
@@ -51,7 +61,7 @@ export const Home = () => {
                             ))
                         }
                     </div>
-                </div>
+                </div> */}
 
             </div>
         </>
