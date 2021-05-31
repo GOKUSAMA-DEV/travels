@@ -71,10 +71,13 @@ a{
     display: flex;
     flex-direction: column;
   }
+  .body_parent .video .video_caption{
+    top: 15%;
+  }
   .body_parent .video .video_caption p{
-    font-size: 2rem;
+    font-size: 0.7rem;
   }
   .body_parent .video .video_caption .buttons a{
-    font-size: 1rem;
+    font-size: 0.5rem;
   }
 }
