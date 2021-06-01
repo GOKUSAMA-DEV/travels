@@ -44,6 +44,27 @@ a{
   .body_parent .video .video_caption .buttons a{
     font-size: 1rem;
   }
+  .body_parent .parent_lol{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+  }
+  .body_parent .parent_lol .location_parent{
+    margin-bottom: 5%;
+  }
+  .body_parent .best{
+    font-size: 0.7rem;
+  }
+  .body_parent .slogan .best{
+    font-size: 0.7rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  .body_parent .slogan .guide .main_card{
+    height: auto;
+    width: 60%;
+  }
 }
 @media only screen and (max-width: 375px) {
   .header{
@@ -83,5 +104,9 @@ a{
   }
   .body_parent .video .video_caption .buttons a{
     font-size: 0.5rem;
+  }
+  .location_main{
+    display: flex;
+    flex-direction: column;
   }
 }

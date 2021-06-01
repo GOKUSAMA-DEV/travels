@@ -2,11 +2,19 @@ import React from 'react';
 import "../Home/Home.css";
 // import A from "../Home/back.jpg";
 import video from "../Home/video-1.mp4";
-import BestLocation from "../Home/BestLocation";
 import Guide from '../Guide/Guide';
 import { Link } from 'react-router-dom';
+import LocationData from "../Header/LocationData";
+import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 export const Home = () => {
+
+    const look = {
+        fontSize: 20,
+        marginTop: 5,
+        marginRight: 5,
+    }
+
     return (
         <>
             <div className="body_parent">
@@ -24,28 +32,27 @@ export const Home = () => {
                         </div>
                     </div>
                 </div>
+                <div className="best">
+                        <h1>We Have Best Location</h1>
+                    </div>
+                <div className="parent_lol">
+                {
+                    LocationData.map((val, ind) => (
+                        <div className="location_parent" key={ind}>
+                            <div className="location_card">
+                                <img src={val.imgsrc} />
+                            </div>
+                            <div className="location_name">
+                                <p><LocationOnIcon style={look} /></p>
+                                <p>{val.name}</p>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
                 <div className="slogan">
                     <div className="best">
-                        <h1>We Have Best Location in States</h1>
-                    </div>
-                    <div className="location">
-                        {
-                            BestLocation.map((val, ind) => (
-                                <div className="main_card" key={ind}>
-                                    <div className="img_card">
-                                        <img src={val.imgsrc} />
-                                    </div>
-                                    <div className="card_name">
-                                        <h1>{val.name}</h1>
-                                    </div>
-                                </div>
-                            ))
-                        }
-                    </div>
-                </div>
-                {/* <div className="slogan">
-                    <div className="best">
-                        <h1>We Have Best Guide for All Location</h1>
+                        <h1>We Have Best guide</h1>
                     </div>
                     <div className="guide">
                         {
@@ -61,7 +68,7 @@ export const Home = () => {
                             ))
                         }
                     </div>
-                </div> */}
+                </div>
 
             </div>
         </>
