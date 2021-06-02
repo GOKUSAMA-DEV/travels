@@ -4,7 +4,7 @@ import "../Home/Home.css";
 import video from "../Home/video-1.mp4";
 import Guide from '../Guide/Guide';
 import { Link } from 'react-router-dom';
-import LocationData from "../Header/LocationData";
+import LocationData from "../Home/LocationData";
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 
 export const Home = () => {

@@ -1,11 +1,15 @@
 import React from 'react';
 import "../Header/Location.css";
 
-import BestLocation from "../Home/BestLocation";
+import BestLocation from "../Header/BestLocation";
 
 export const Location = () => {
    return (
         <>
+        <div className="parent_jai">
+            <div className="title_name">
+                <h1>Location</h1>
+            </div>
 
             <div className="location_main">
                 {
@@ -21,7 +25,7 @@ export const Location = () => {
                     ))
                 }
             </div>
-
+            </div>
 
         </>
     )

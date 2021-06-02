@@ -138,6 +138,7 @@ video{
   margin: auto;
   flex-direction: column;
   overflow: hidden;
+  border-radius: 5px;
 }
 .location_card{
   height: auto;

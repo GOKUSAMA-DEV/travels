@@ -65,6 +65,10 @@ a{
     height: auto;
     width: 60%;
   }
+  .parent_jai .location_main{
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media only screen and (max-width: 375px) {
   .header{
