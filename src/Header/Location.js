@@ -16,7 +16,7 @@ export const Location = () => {
                     BestLocation.map((val, ind) => (
                         <div className="main_card" key={ind}>
                             <div className="img_card">
-                                <img src={val.imgsrc} />
+                                <img src={val.imgsrc} alt={val.name}/>
                             </div>
                             <div className="card_name">
                                 <h1>{val.name}</h1>

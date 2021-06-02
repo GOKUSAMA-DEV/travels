@@ -19,7 +19,7 @@ export const Home = () => {
         <>
             <div className="body_parent">
                 <div className="video">
-                    <img src={A} />
+                    <img src={A} alt="background_image" />
                     <video autoPlay loop muted>
                         <source src={video} type="video/mp4" />
                     </video>
@@ -39,7 +39,7 @@ export const Home = () => {
                     LocationData.map((val, ind) => (
                         <div className="location_parent" key={ind}>
                             <div className="location_card">
-                                <img src={val.imgsrc} />
+                                <img src={val.imgsrc} alt={val.name} />
                             </div>
                             <div className="location_name">
                                 <p><LocationOnIcon style={look} /></p>
@@ -58,7 +58,7 @@ export const Home = () => {
                             Guide.map((val, ind) => (
                                 <div className="main_card" key={ind}>
                                     <div className="img_card">
-                                        <img src={val.imgsrc} />
+                                        <img src={val.imgsrc} alt={val.name} />
                                     </div>
                                     <div className="card_name">
                                         <h1>{val.name}</h1>
