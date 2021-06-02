@@ -1,6 +1,6 @@
 import React from 'react';
 import "../Home/Home.css";
-// import A from "../Home/back.jpg";
+import A from "../Home/back.jpg";
 import video from "../Home/video-1.mp4";
 import Guide from '../Guide/Guide';
 import { Link } from 'react-router-dom';
@@ -19,8 +19,7 @@ export const Home = () => {
         <>
             <div className="body_parent">
                 <div className="video">
-                    {/* <img src={A} /> */}
-                    {/* <video src="video-1.mp4" autoPlay loop muted /> */}
+                    <img src={A} />
                     <video autoPlay loop muted>
                         <source src={video} type="video/mp4" />
                     </video>

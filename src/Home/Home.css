@@ -9,6 +9,11 @@
     height: auto;
     width: 100%;
 }
+.video img{
+    height: auto;
+    width: 100%;
+    display: none;
+}
 video{
     object-fit: cover;
     width: 100%;
