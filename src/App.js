@@ -1,7 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router";
 import { Footer } from "./Footer/Footer";
-import { Booking } from "./Header/Booking";
+import { Booking } from "./Booking/Booking";
 import { Header } from "./Header/Header";
 import { Location } from "./Header/Location";
 import { Home } from "./Home/Home";

@@ -34,7 +34,7 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 40.5%;
+    top: 30.5%;
     opacity: 1;
   }
   .body_parent .video .video_caption p{
@@ -109,7 +109,7 @@ a{
     top: 35%;
     height: 60.5%;
     width: 100%;
-    margin-top: 30%;
+    margin-top: 20%;
   }
   .body_parent .video .video_caption p{
     font-size: 0.7rem;

@@ -21,3 +21,49 @@
   grid-gap: 14px 5px;
   padding: 2%;
 }
+
+.city_pack{
+  height: auto;
+  width: 90%;
+  background-color: burlywood;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 2px solid black;
+  padding: 0.5%;
+}
+.city_image{
+  height: auto;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: cadetblue;
+}
+.city_image img{
+  height: auto;
+  width: 50%;
+}
+.cont{
+  height: auto;
+  width: 50%;
+  padding: 1.8%;
+  background-color: chartreuse;
+}
+.cont h1{
+  line-height: 35px;
+  font-size: 1.5rem;
+}
+.btn{
+  height: auto;
+  width: 100%;
+  display: flex;
+  margin-top: 2%;
+  justify-content: center;
+}
+.btn a{
+  background-color: grey;
+  color: aliceblue;
+  padding: 1% 3%;
+  border-radius: 5px;
+  font-size: 1.3rem;
+}

@@ -1,0 +1,33 @@
+.parent_booking{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.inner_border{
+    height: auto;
+    width: 55%;
+    display: flex;
+    margin-top: 4%;
+    overflow: hidden;
+}
+.img_container{
+    display: flex;
+    align-items: center;
+    height: auto;
+    width: 50%;
+}
+.img_container img{
+    width: 100%;
+}
+.form{
+    height: auto;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: burlywood;
+}
+.form_details{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,10 @@
+
+                    <div className="period">
+                        <h1></h1>
+                    </div>
+                    {/* <div className="hotel_lol">
+                        <h1>Amount 30,000 Rs</h1>
+                    </div> */}
+                    <div className="desc">
+                        <p>This is only 7 Days, 6 Nights Trip we will cover-up location which provide by our-self</p>
+                    </div>
