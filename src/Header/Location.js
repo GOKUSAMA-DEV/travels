@@ -1,13 +1,13 @@
 import React from 'react';
 import "../Header/Location.css";
-import A from "../Location/Pack/a.JPG";
+import A from "../Location/Pack/b.jpg";
 import BestLocation from "../Header/BestLocation";
 import { Link } from 'react-router-dom';
 
 export const Location = () => {
     return (
         <>
-            <div className="parent_jai">
+            {/* <div className="parent_jai">
                 <div className="title_name">
                     <h1>Location</h1>
                 </div>
@@ -43,6 +43,25 @@ export const Location = () => {
                 <div>
 
                 </div>
+            </div> */}
+            <div className="popo">
+            <div className="parent_location">
+                {
+                    BestLocation.map((val, ind) => (
+                        <div className="lol_card" key={ind}>
+                            <div className="lol_image">
+                                <img src={val.imgsrc} />
+                            </div>
+                            <div className="lol_desc">
+                                <h4>{val.package_name}</h4>
+                                <h3>{val.time}</h3>
+                                <p>{val.desc}</p>
+                                <Link>{val.book}</Link>
+                            </div>
+                        </div>
+                    ))
+                }
+            </div>
             </div>
 
         </>

@@ -5,15 +5,24 @@ import C from "../Location/Jaipur/Jaipur.jpg";
 const BestLocation = [
     {
         imgsrc: A,
-        name: "Delhi"
+        package_name: "Delhi Package",
+        time: "7 DAYS / 6 NIGHTS",
+        desc: "lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple",
+        book: "BOOK",
     },
     {
-        imgsrc: C,
-        name: "Jaipur"
+        imgsrc: C   ,
+        package_name: "Jaipur Package",
+        time: "3 DAYS / 2 NIGHTS",
+        desc: "lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple",
+        book: "BOOK",
     },
     {
         imgsrc: B,
-        name: "Amritsar"
+        package_name: "Amritsar Package",
+        time: "3 DAYS / 2 NIGHTS",
+        desc: "lorem ipsum simplelorem ipsum simplelorem ipsum simplelorem ipsum simple",
+        book: "BOOK",
     },
     
 ]

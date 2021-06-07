@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 *{
   margin: 0;
+  font-family: 'Quicksand', sans-serif; 
 }
 a{
   text-decoration: none;
@@ -13,7 +16,7 @@ a{
   .header .header_menu{
       flex-direction: column;
       align-items: flex-start;
-  } 
+  }
   .header .header_menu a{
       font-size: 1rem;
   }
@@ -75,7 +78,25 @@ a{
   .body_parent .video img{
     display: block;
   }
-  
+  .popo .parent_location{
+    height: auto;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .parent_location .lol_card{
+    display: flex;
+    flex-direction: column;
+  }
+  .parent_location .lol_card .lol_image{
+    width: 90%;
+    margin: auto;
+  }
+  .parent_location .lol_card .lol_desc{
+    width: 90%;
+    margin: auto;
+    margin-top: 5%;
+  }
 }
 @media only screen and (max-width: 375px) {
   .header{
@@ -89,7 +110,7 @@ a{
       margin: auto;
       border-top: 2px solid black;
       margin-top: 5%;
-  } 
+  }
   .header .header_menu a{
       font-size: 1rem;
   }
@@ -118,6 +139,10 @@ a{
     font-size: 0.5rem;
   }
   .location_main{
+    display: flex;
+    flex-direction: column;
+  }
+  .parent_location{
     display: flex;
     flex-direction: column;
   }
