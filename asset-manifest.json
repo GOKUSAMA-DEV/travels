@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/travels/static/css/main.43d60086.chunk.css",
-    "main.js": "/travels/static/js/main.88f5ad8d.chunk.js",
-    "main.js.map": "/travels/static/js/main.88f5ad8d.chunk.js.map",
+    "main.css": "/travels/static/css/main.6d54a5c0.chunk.css",
+    "main.js": "/travels/static/js/main.acaa7224.chunk.js",
+    "main.js.map": "/travels/static/js/main.acaa7224.chunk.js.map",
     "runtime-main.js": "/travels/static/js/runtime-main.3f7a0df1.js",
     "runtime-main.js.map": "/travels/static/js/runtime-main.3f7a0df1.js.map",
     "static/js/2.293428ac.chunk.js": "/travels/static/js/2.293428ac.chunk.js",
     "static/js/2.293428ac.chunk.js.map": "/travels/static/js/2.293428ac.chunk.js.map",
     "index.html": "/travels/index.html",
-    "static/css/main.43d60086.chunk.css.map": "/travels/static/css/main.43d60086.chunk.css.map",
+    "static/css/main.6d54a5c0.chunk.css.map": "/travels/static/css/main.6d54a5c0.chunk.css.map",
     "static/js/2.293428ac.chunk.js.LICENSE.txt": "/travels/static/js/2.293428ac.chunk.js.LICENSE.txt",
     "static/media/Amritsar.668d73e1.JPG": "/travels/static/media/Amritsar.668d73e1.JPG",
     "static/media/Delhi.612b7112.jpg": "/travels/static/media/Delhi.612b7112.jpg",
     "static/media/Jaipur.1756e20a.jpg": "/travels/static/media/Jaipur.1756e20a.jpg",
-    "static/media/a.4de10b94.JPG": "/travels/static/media/a.4de10b94.JPG",
     "static/media/a.c05bc089.jpg": "/travels/static/media/a.c05bc089.jpg",
     "static/media/ajay.e9f5f504.jpeg": "/travels/static/media/ajay.e9f5f504.jpeg",
+    "static/media/b.3dc6cac6.jpg": "/travels/static/media/b.3dc6cac6.jpg",
     "static/media/b.52c2a9ae.jpg": "/travels/static/media/b.52c2a9ae.jpg",
     "static/media/back.56b5f742.jpg": "/travels/static/media/back.56b5f742.jpg",
     "static/media/c.bcc77450.jpg": "/travels/static/media/c.bcc77450.jpg",
@@ -29,7 +29,7 @@
   "entrypoints": [
     "static/js/runtime-main.3f7a0df1.js",
     "static/js/2.293428ac.chunk.js",
-    "static/css/main.43d60086.chunk.css",
-    "static/js/main.88f5ad8d.chunk.js"
+    "static/css/main.6d54a5c0.chunk.css",
+    "static/js/main.acaa7224.chunk.js"
   ]
 }
