@@ -1,25 +1,23 @@
 {
   "files": {
-    "main.css": "/travels/static/css/main.6d54a5c0.chunk.css",
-    "main.js": "/travels/static/js/main.acaa7224.chunk.js",
-    "main.js.map": "/travels/static/js/main.acaa7224.chunk.js.map",
+    "main.css": "/travels/static/css/main.9623b9cc.chunk.css",
+    "main.js": "/travels/static/js/main.20f1ecde.chunk.js",
+    "main.js.map": "/travels/static/js/main.20f1ecde.chunk.js.map",
     "runtime-main.js": "/travels/static/js/runtime-main.3f7a0df1.js",
     "runtime-main.js.map": "/travels/static/js/runtime-main.3f7a0df1.js.map",
-    "static/js/2.293428ac.chunk.js": "/travels/static/js/2.293428ac.chunk.js",
-    "static/js/2.293428ac.chunk.js.map": "/travels/static/js/2.293428ac.chunk.js.map",
+    "static/js/2.bc2b894a.chunk.js": "/travels/static/js/2.bc2b894a.chunk.js",
+    "static/js/2.bc2b894a.chunk.js.map": "/travels/static/js/2.bc2b894a.chunk.js.map",
     "index.html": "/travels/index.html",
-    "static/css/main.6d54a5c0.chunk.css.map": "/travels/static/css/main.6d54a5c0.chunk.css.map",
-    "static/js/2.293428ac.chunk.js.LICENSE.txt": "/travels/static/js/2.293428ac.chunk.js.LICENSE.txt",
+    "static/css/main.9623b9cc.chunk.css.map": "/travels/static/css/main.9623b9cc.chunk.css.map",
+    "static/js/2.bc2b894a.chunk.js.LICENSE.txt": "/travels/static/js/2.bc2b894a.chunk.js.LICENSE.txt",
     "static/media/Amritsar.668d73e1.JPG": "/travels/static/media/Amritsar.668d73e1.JPG",
     "static/media/Delhi.612b7112.jpg": "/travels/static/media/Delhi.612b7112.jpg",
     "static/media/Jaipur.1756e20a.jpg": "/travels/static/media/Jaipur.1756e20a.jpg",
     "static/media/a.c05bc089.jpg": "/travels/static/media/a.c05bc089.jpg",
     "static/media/ajay.e9f5f504.jpeg": "/travels/static/media/ajay.e9f5f504.jpeg",
-    "static/media/b.3dc6cac6.jpg": "/travels/static/media/b.3dc6cac6.jpg",
     "static/media/b.52c2a9ae.jpg": "/travels/static/media/b.52c2a9ae.jpg",
     "static/media/back.56b5f742.jpg": "/travels/static/media/back.56b5f742.jpg",
     "static/media/c.bcc77450.jpg": "/travels/static/media/c.bcc77450.jpg",
-    "static/media/card.142de2b7.jpg": "/travels/static/media/card.142de2b7.jpg",
     "static/media/d.f1720c82.jpg": "/travels/static/media/d.f1720c82.jpg",
     "static/media/gupta.2af86072.jpeg": "/travels/static/media/gupta.2af86072.jpeg",
     "static/media/popi.74484ad2.jpg": "/travels/static/media/popi.74484ad2.jpg",
@@ -28,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.3f7a0df1.js",
-    "static/js/2.293428ac.chunk.js",
-    "static/css/main.6d54a5c0.chunk.css",
-    "static/js/main.acaa7224.chunk.js"
+    "static/js/2.bc2b894a.chunk.js",
+    "static/css/main.9623b9cc.chunk.css",
+    "static/js/main.20f1ecde.chunk.js"
   ]
 }
