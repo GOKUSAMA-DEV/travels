@@ -3,6 +3,7 @@
 *{
   margin: 0;
   font-family: 'Quicksand', sans-serif; 
+  list-style-type: none;
 }
 a{
   text-decoration: none;

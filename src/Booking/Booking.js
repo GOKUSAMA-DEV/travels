@@ -1,56 +1,93 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "../Booking/Booking.css";
-import A from "../Booking/card.jpg";
 
 
 export const Booking = () => {
-    return (
-        <div className="parent_booking">
-            <div className="inner_border">
-                <div className="img_container">
-                    <img src={A} alt="back" />
-                </div>
-                <div className="form">
-                    <div className="booking_title">
-                        <h1>Booking Details</h1>
-                    </div>
-                    <div className="form_details">
-                        <form>
-                            <label>
-                                Name:
-                                <input type="text" name="name" />
-                            </label>
-                            <br></br>
-                            <label>
-                                Peoples:
-                                <input type="text" name="name" />
-                            </label>
-                            <br></br>
-                            <label>
-                                Date:
-                                <input type="text" name="name" />
-                            </label>
-                            <br></br>
-                            <label>
-                                Packages:
-                                <input type="text" name="name" />
-                            </label>
-                            <br></br>
-                            <label>
-                                Email:
-                                <input type="text" name="name" />
-                            </label>
-                            <br></br>
-                        </form>
-                    </div>
-                    <div className="sumbit_btn">
-                        {/* <input type="submit" value="Submit" /> */}
-                    </div>
-                    <div className="via_social">
 
-                    </div>
+    const [inputList, setInputList] = useState("");
+    // const [inputListAge, setinputListAges] = useState([]);
+    const [item, setItems] = useState([]);
+    // const [age, setAges] = useState([]);
+
+    const itemEvent = (e) => {
+        setInputList(e.target.value);
+    }
+
+    const addComment = (e) => {
+        e.preventDefault();
+        if (!inputList) {
+            alert("entery your thoughts");
+            console.log("entery your thoughts");
+        }
+        else {
+            setItems((oldItems) => {
+                return [...oldItems, inputList];
+            })
+        }
+
+    }
+
+    return (
+        <>
+            <div className="parent_booking">
+                <h1>Booking Details</h1>
+                <div className="con">
+
+                    <form class="form" onSubmit={addComment}>
+                        <div className="details">
+                            <div className="passengers">
+                                <h2>Family Information</h2>
+                                <div className="peoples_info">
+                                    <div className="name">
+                                        <label>
+                                            <span>Name : </span>
+                                            <input type="text" name="name" onChange={itemEvent} />
+                                        </label>
+                                    </div>
+                                    <div className="age">
+                                        <label>
+                                            <span>Age : </span>
+                                            <input type="number" name="age" />
+                                        </label>
+                                    </div>
+                                </div>
+                                <button className="add_sign" type="submit">+</button>
+                            </div>
+                        </div>
+                        <div className="total_bill">
+                            <h2>Total Amount</h2>
+                            <div className="no_peoples">
+                                {
+                                    item.map((itemval) => {
+                                        return (
+                                        <>
+                                        <div className="alignment">
+                                            <div>
+                                                <li>Name</li>
+                                            </div>
+                                            <div>
+                                                <li>36</li>
+                                            </div>
+                                            </div>
+                                        </>
+                                        )
+                                    })
+                                }
+                            </div>
+
+                            <div className="amount">
+                                <div>
+                                    <li>Amount</li>
+                                </div>
+                                <div>
+                                    <li>&#8377;2000</li>
+                                </div>
+
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </div>
-        </div>
+        </>
     )
 }
