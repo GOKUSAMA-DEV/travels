@@ -25,7 +25,7 @@ export const Footer = () => {
         <>
             <div className="footer">
                 <div className="title">
-                    <h1>Sasta Travels</h1>
+                    <h1>Happy Travels</h1>
                 </div>
                 <div className="follow-us">
                 <a href="https://twitter.com/gauravsahu394"><TwitterIcon className={look.root} /></a>

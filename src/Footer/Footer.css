@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
-
-
 .footer{
     height: auto;
     width: 100%;
@@ -11,7 +8,6 @@
 }
 .footer h1{
     color: white;
-    font-family: 'Quicksand', sans-serif;
 }
 .title{
     height: auto;
@@ -22,7 +18,7 @@
 }
 .title h1{
     font-size: 3rem;
-    font-family: "Barrio";
+    font-family:  'Quicksand', sans-serif;
 }
 .follow-us{
     display: flex;

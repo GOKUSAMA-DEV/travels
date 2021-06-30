@@ -1,0 +1,46 @@
+.parent_booked{
+    height: auto;
+    width: 80%;
+    background-color: tomato;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 2%;
+    border: 2px solid black;
+    border-radius: 5px;
+    line-height: 25px;
+}
+.parent_booked h1{
+    text-align: center;
+    padding: 2%;
+}
+.info{
+    height: auto;
+    width: 100%;
+    background-color: burlywood;
+}
+.info h1{
+    font-size: 1.5rem;
+}
+.package_name{
+    height: auto;
+    width: 100%;
+    display: flex;
+    line-height: 15px;
+    justify-content: space-around;
+}
+.booking_name{
+    height: auto;
+    width: 50%;
+}
+.booking_place{
+    height: auto;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.total_members{
+    text-align: center;
+}

@@ -1,13 +1,8 @@
-import React, { useState, createContext } from 'react';
+import React, { useState } from 'react';
 import "../Booking/Booking.css";
-// import { Info } from '../Booking/Info';
 
-
-export const valueContext = createContext();
 
 export const Booking = () => {
-
-
 
     const [inputField, setInputField] = useState({
         name: "",
@@ -41,9 +36,10 @@ export const Booking = () => {
         }
 
     }
-        return (
-            <>
-                <div className="parent_booking">
+
+    return (
+        <>
+            <div className="parent_booking">
                 <h1>Booking Details</h1>
                 <div className="con">
                     <div className="details">
@@ -110,7 +106,6 @@ export const Booking = () => {
                     </div>
                 </div>
             </div>
-            </>
-        )
-
+        </>
+    )
 }

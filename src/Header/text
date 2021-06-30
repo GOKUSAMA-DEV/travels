@@ -62,3 +62,130 @@
                 </div>
             </div>
         </div>
+
+
+
+
+
+
+
+
+
+
+
+import React, { useState } from 'react';
+import "../Booking/Booking.css";
+
+
+export const Booking = () => {
+
+    const [inputField , setInputField] = useState({
+        first_name: "",
+        age: "",
+    })
+
+    const inputsHandler = (e) =>{
+        setInputField( {[e.target.name]: e.target.value} )
+    }
+
+    const submitButton = () =>{
+        console.log(inputField.first_name);
+        console.log(inputField.age);
+    }
+
+    return (
+        <>
+            <div className="parent_booking">
+                <h1>Booking Details</h1>
+                <div className="con">
+
+                    
+                        <div className="details">
+                            <div className="passengers">
+                                <h2>Family Information</h2>
+                                <div className="peoples_info">
+                                    <div className="name">
+                                        <label>
+                                            <span>Name : </span>
+                                            <input type="text" name="name" onChange={inputsHandler} value={inputField.first_name} />
+                                        </label>
+                                    </div>
+                                    <div className="age">
+                                        <label>
+                                            <span>Age : </span>
+                                            <input type="number" name="age" onChange={inputsHandler} value={inputField.age}/>
+                                        </label>
+                                    </div>
+                                </div>
+                                <button className="add_sign" onClick={submitButton}>+</button>
+                            </div>
+                        </div>
+                        <div className="total_bill">
+                            <h2>Total Amount</h2>
+                            {/* <div className="no_peoples">
+                                {
+                                    item.map((itemval) => {
+                                        return (
+                                        <>
+                                        <div className="alignment">
+                                            <div>
+                                                <li>Name</li>
+                                            </div>
+                                            <div>
+                                                <li>36</li>
+                                            </div>
+                                            </div>
+                                        </>
+                                        )
+                                    })
+                                }
+                            </div> */}
+
+                            <div className="amount">
+                                <div>
+                                    <li>Amount</li>
+                                </div>
+                                <div>
+                                    <li>&#8377;2000</li>
+                                </div>
+
+                            </div>
+                        </div>
+                    
+                </div>
+            </div>
+        </>
+    )
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+const [name, setName] = useState();
+    const [age, setAge] = useState();
+
+    
+    const itemEvent = (e) =>{
+        setName(e.target.value)
+        console.log(name);
+    }
+    const itemEventTwo = (e) =>{
+        setAge(e.target.value)
+        console.log(age);
+    }
+
+    const submitButton = (e) =>{
+       
+        e.preventDefault();
+    }

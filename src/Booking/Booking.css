@@ -3,7 +3,7 @@
     width: 95%;
     background-color: powderblue;
     margin: auto;
-    margin-top: 2%;
+    margin-top: 3%;
     border-radius: 5px;
 }
 .parent_booking h1, h2{
@@ -14,6 +14,7 @@
     height: auto;
     width: 100%;
     display: flex;
+    justify-content: space-around;
 }
 .form{
     height: auto;
@@ -23,13 +24,24 @@
 .details{
     height: auto;
     width: 65%;
+    border-radius: 5px;
+    border: 2px solid black;
     background-color: palegoldenrod;
 }
 .total_bill{
     height: auto;
     width: 30%;
     background-color: palevioletred;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
     border-radius: 5px;
+}
+.total_bill h2{
+    background-color: black;
+    border-radius: 5px 5px 0 0;
+    color: white;
+    padding: 2%;
+    border: 2px solid black;
 }
 .peoples_info{
     height: auto;
@@ -71,10 +83,8 @@ input{
     height: auto;
     width: 100%;
     display: flex;
-    
     padding: 1%;
     justify-content: space-around;
-    background-color: burlywood;
 }
 .no_peoples li{
     font-size: 1.2rem;
@@ -83,15 +93,40 @@ input{
 .amount{
     height: auto;
     width: 90%;
-    /* background-color: tomato; */
     padding: 1%;
     display: flex;
     margin: auto;
     margin-top: 10%;
-    border-top: 2px solid black;
-    justify-content: space-around;
+    /* border-top: 2px solid black; */
+    justify-content: center;
 }
-.amount li{
-    font-size: 1.5rem;
+.amount button{
+    border: none;
+    outline: none;
+    padding: 2%;
+    margin-top: 2%;
+    font-size: 1rem;
+    border-radius: 5px;
     font-weight: 700;
+    cursor: pointer;
+}
+.amount button:active{
+    background-color: rgb(156, 243, 156);
+    color: white;
+}
+
+.packages_trip{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.select_value{
+    padding: 0.5%;
+    border-radius: 3px;
+    font-size: 0.8rem;
+    margin-left: 1%;
+    border: none;
+    outline: none;
 }

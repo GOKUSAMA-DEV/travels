@@ -98,6 +98,33 @@ a{
     margin: auto;
     margin-top: 5%;
   }
+  .parent_booking .con{
+    flex-direction: column;
+  }
+  .parent_booking .con .details{
+    margin: auto;
+    margin-top: 5%;
+    width: 95%;
+    padding: 2%;
+    border-radius: 5px;
+  }
+  .parent_booking .con .details .passengers .peoples_info{
+    margin-left: 2%;
+  }
+  .parent_booking .con .details .passengers .peoples_info span{
+    margin-left: 25%;
+    margin-bottom: 2%;
+  }
+  .parent_booking .con .details .passengers .add_sign{
+    margin: auto;
+  }
+  .parent_booking .con .total_bill{
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+    padding: 2%;
+    border-radius: 5px;
+  }
 }
 @media only screen and (max-width: 375px) {
   .header{
@@ -146,5 +173,31 @@ a{
   .parent_location{
     display: flex;
     flex-direction: column;
+  }
+  .parent_booking .con{
+    flex-direction: column;
+  }
+  .parent_booking .con .details{
+    margin: auto;
+    margin-top: 5%;
+    width: 95%;
+    padding: 2%;
+    border-radius: 5px;
+  }
+  .parent_booking .con .details .passengers .peoples_info{
+    margin-left: 2%;
+  }
+  .parent_booking .con .details .passengers .peoples_info span{
+    margin-left: 25%;
+  }
+  .parent_booking .con .details .passengers .add_sign{
+    margin: auto;
+  }
+  .parent_booking .con .total_bill{
+    margin: auto;
+    margin-top: 2%;
+    width: 95%;
+    padding: 2%;
+    border-radius: 5px;
   }
 }
