@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/travels/static/css/main.7095576a.chunk.css",
-    "main.js": "/travels/static/js/main.741bbf46.chunk.js",
-    "main.js.map": "/travels/static/js/main.741bbf46.chunk.js.map",
+    "main.css": "/travels/static/css/main.ad544464.chunk.css",
+    "main.js": "/travels/static/js/main.02746cf8.chunk.js",
+    "main.js.map": "/travels/static/js/main.02746cf8.chunk.js.map",
     "runtime-main.js": "/travels/static/js/runtime-main.3f7a0df1.js",
     "runtime-main.js.map": "/travels/static/js/runtime-main.3f7a0df1.js.map",
-    "static/js/2.222133e3.chunk.js": "/travels/static/js/2.222133e3.chunk.js",
-    "static/js/2.222133e3.chunk.js.map": "/travels/static/js/2.222133e3.chunk.js.map",
+    "static/js/2.f675cfb2.chunk.js": "/travels/static/js/2.f675cfb2.chunk.js",
+    "static/js/2.f675cfb2.chunk.js.map": "/travels/static/js/2.f675cfb2.chunk.js.map",
     "index.html": "/travels/index.html",
-    "static/css/main.7095576a.chunk.css.map": "/travels/static/css/main.7095576a.chunk.css.map",
-    "static/js/2.222133e3.chunk.js.LICENSE.txt": "/travels/static/js/2.222133e3.chunk.js.LICENSE.txt",
+    "static/css/main.ad544464.chunk.css.map": "/travels/static/css/main.ad544464.chunk.css.map",
+    "static/js/2.f675cfb2.chunk.js.LICENSE.txt": "/travels/static/js/2.f675cfb2.chunk.js.LICENSE.txt",
     "static/media/Amritsar.668d73e1.JPG": "/travels/static/media/Amritsar.668d73e1.JPG",
     "static/media/Delhi.612b7112.jpg": "/travels/static/media/Delhi.612b7112.jpg",
     "static/media/Jaipur.1756e20a.jpg": "/travels/static/media/Jaipur.1756e20a.jpg",
@@ -21,13 +21,12 @@
     "static/media/d.f1720c82.jpg": "/travels/static/media/d.f1720c82.jpg",
     "static/media/gupta.2af86072.jpeg": "/travels/static/media/gupta.2af86072.jpeg",
     "static/media/popi.74484ad2.jpg": "/travels/static/media/popi.74484ad2.jpg",
-    "static/media/satyam.0d782ef0.jpg": "/travels/static/media/satyam.0d782ef0.jpg",
-    "static/media/video-1.99a46e03.mp4": "/travels/static/media/video-1.99a46e03.mp4"
+    "static/media/satyam.0d782ef0.jpg": "/travels/static/media/satyam.0d782ef0.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.3f7a0df1.js",
-    "static/js/2.222133e3.chunk.js",
-    "static/css/main.7095576a.chunk.css",
-    "static/js/main.741bbf46.chunk.js"
+    "static/js/2.f675cfb2.chunk.js",
+    "static/css/main.ad544464.chunk.css",
+    "static/js/main.02746cf8.chunk.js"
   ]
 }
